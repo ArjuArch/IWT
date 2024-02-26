@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 2%;
+  }
+  body {
+    background-image: url("https://i.dietdoctor.com/wp-content/uploads/2018/09/scale-lose-weight-2.jpg?auto=compress%2Cformat&w=6164&h=3468&fit=crop&fp-y=0.99");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  #heading {
+    padding-left: 20%;
+    padding-bottom: 40px;
+  }
+  #field1 {
+    border-radius: 22px;
+    height: 180px;
+    width: 400px;
+    border: 1px solid rgb(148, 148, 148);
+  }
+  #field2 {
+    border-radius: 22px;
+    height: 115px;
+    width: 400px;
+    border: 1px solid rgb(148, 148, 148);
+  }
+  #height,
+  #weight,
+  #result {
+    border: 1px solid rgb(148, 148, 148);
+    height: 24px;
+    width: 200px;
+    padding-left: 8px;
+    border-radius: 6px;
+  }
+  #calc {
+    height: 20px;
+    border-radius: 6px;
+    padding-left: 120px;
+  }
+  button {
+    height: 30px;
+    width: 150px;
+    background-color: white;
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: rgb(255, 247, 176);
+    color: black;
+  }
+  #side {
+    padding-left: 20px;
+  }
+  #conclusion {
+    text-align: center;
+  }
