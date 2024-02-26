@@ -2,7 +2,7 @@
 
 Live links...💫
 
-🤍 BMI Calculator : 
+🤍 BMI Calculator : https://arjuarch.github.io/IWT/BMI%20Calculator/bmi.html
 
 🖤 Arithmetic Calculator :
 
