@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form action="submit" onsubmit="fun()">
+      <h1 style="text-align: center">Validation Form</h1>
+      <fieldset class="field">
+        <fieldset class="inner" style="margin-top: 24px">
+          <legend>Personal Details...</legend>
+          <div id="in">
+            <label for="name">Name : </label>
+            <input
+              value=""
+              type="text"
+              placeholder="Enter your name"
+              id="name"
+            />
+          </div>
+          <div id="in">
+            <label for="age">Age : </label>
+            <input type="text" placeholder="Enter your age" id="age" />
+          </div>
+          <div id="in">
+            <label for="email">Email : </label>
+            <input type="text" placeholder="Enter your email" id="email" />
+          </div>
+          <div id="in">
+            <label for="mob">Mobile number : </label>
+            <input
+              type="text"
+              placeholder="Enter your mobile number"
+              id="mob"
+            />
+          </div>
+          <div id="in">
+            <label for="password">Password : </label>
+            <input
+              type="password"
+              placeholder="Enter your password"
+              id="password"
+              minlength="8"
+            />
+          </div>
+        </fieldset>
+        <br />
+        <fieldset class="inner">
+          <legend>Interest</legend>
+          <label for="interest">Let us know your area of interest....</label
+          ><br />
+          <div id="in">
+            <input value="HTML" type="checkbox" id="one" name="interest" />
+            <label for="one">AI/ML</label>
+            <input value="CSS" type="checkbox" id="two" name="interest" />
+            <label for="two">Full-Stack</label>
+            <input value="JS" type="checkbox" id="three" name="interest" />
+            <label for="three">Blockchain</label>
+          </div>
+        </fieldset>
+        <br />
+        <fieldset class="inner">
+          <legend>Skillset</legend>
+          <label for="location">Programming Language....</label><br />
+          <div id="in">
+            <input type="radio" id="oner" name="location" />
+            <label for="oner">Python</label>
+            <input type="radio" id="twor" name="location" />
+            <label for="twor">Java</label>
+            <input
+              type="radio"
+              id="threer"
+              name="location
+            "
+            />
+            <label for="threer">C</label>
+          </div>
+        </fieldset>
+        <br />
+        <fieldset class="inner">
+          <legend>Option</legend>
+          <label for="browser">Choose your requirement:</label>
+          <input list="browsers" name="browser" id="browser" />
+
+          <datalist id="browsers">
+            <option value="Paid Internship"></option>
+            <option value="Full time Internship"></option>
+            <option value="Work from Home Internship"></option>
+            <option value="Part-time Internship"></option>
+            <option value="Employment"></option>
+          </datalist>
+        </fieldset>
+        <br />
+        <div id="button">
+          <button id="register" onclick="fun()">REGISTER</button>
+        </div>
+        <br />
+      </fieldset>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1519219788971-8d9797e0928e?q=80&w=2044&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+  .field {
+    background: linear-gradient(
+      rgb(231, 231, 231),
+      white,
+      rgb(225, 205, 174)
+    );
+    width: 500px;
+    margin: 0 auto;
+  }
+  .inner {
+    width: 400px;
+    margin: 0 auto;
+  }
+  #in {
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  button {
+    font-family: cursive;
+    border: none;
+    height: 40px;
+    width: 160px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(93 114 71);
+  }
+  button:hover {
+    color: white;
+    background-color: rgb(184, 9, 120);
+  }
+  #button {
+    padding-left: 35%;
+  }
